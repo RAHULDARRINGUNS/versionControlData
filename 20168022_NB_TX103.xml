@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><TXLife>
+   <TXLifeRequest>
+      <TransRefGUID>9a81f43f-de11-44db-bbdc-354ed515126c</TransRefGUID>
+      <TransType tc="103">New Business submission for a policy</TransType>
+      <OLifE>
+         <Holding id="HOLDING_100000353394">
+            <Policy>
+               <LineOfBusiness tc="1">Life</LineOfBusiness>
+               <CarrierCode>NYL</CarrierCode>
+               <Life>
+                  <Coverage id="COVERAGE_121_SELF">
+                     <PlanName>20-Year Level Term Life Insurance </PlanName>
+                     <ProductCode>121</ProductCode>
+                     <CurrentAmt>100000</CurrentAmt>
+                     <LifeParticipant PartyID="PARTY_INSURED_SELF">
+                        <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                     </LifeParticipant>
+                     <KeyedValue>
+                        <KeyName>GNumber</KeyName>
+                        <KeyValue>G-29168-0</KeyValue>
+                     </KeyedValue>
+                  </Coverage>
+                  <Coverage id="COVERAGE_401_SELF">
+                     <PlanName>Mid-Term Disability Insurance</PlanName>
+                     <ProductCode>401</ProductCode>
+                     <CurrentAmt>100</CurrentAmt>
+                     <LifeParticipant PartyID="PARTY_INSURED_SELF">
+                        <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                     </LifeParticipant>
+                     <KeyedValue>
+                        <KeyName>GNumber</KeyName>
+                        <KeyValue>G-29902-0</KeyValue>
+                     </KeyedValue>
+                  </Coverage>
+               </Life>
+               <ApplicationInfo>
+                  <HOReceiptDate>2023-09-06</HOReceiptDate>
+               </ApplicationInfo>
+               <KeyedValue>
+                  <KeyName>LeadSource</KeyName>
+                  <KeyValue>Portal</KeyValue>
+               </KeyedValue>
+               <KeyedValue>
+                  <KeyName>Priority</KeyName>
+                  <KeyValue>1</KeyValue>
+               </KeyedValue>
+               <KeyedValue>
+                  <KeyName>AgentSplitOverride</KeyName>
+                  <KeyValue>No</KeyValue>
+               </KeyedValue>
+               <KeyedValue>
+                  <KeyName>TrialApplication</KeyName>
+                  <KeyValue>No</KeyValue>
+               </KeyedValue>
+               <OLifEExtension VendorCode="008">
+                  <TpaAcronym>ABE</TpaAcronym>
+                  <AssociationCode>ABE</AssociationCode>
+                  <ConfirmationId>100000353394</ConfirmationId>
+                  <CaseStatus tc="1">pending</CaseStatus>
+                  <TeleUnderInd>Y</TeleUnderInd>
+               </OLifEExtension>
+            </Policy>
+         </Holding>
+         <Party id="PARTY_INSURED_SELF">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <FullName>test tes</FullName>
+            <GovtID>242424242</GovtID>
+            <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+            <ResidenceState tc="1">Alabama</ResidenceState>
+            <ResidenceCountry tc="1">United States of America</ResidenceCountry>
+            <Person>
+               <FirstName>test</FirstName>
+               <LastName>tes</LastName>
+               <MarStat tc="1">Domestic Partner</MarStat>
+               <Gender tc="1">Male</Gender>
+               <BirthDate>2000-12-12</BirthDate>
+               <NetIncomeAmt>234324</NetIncomeAmt>
+               <Height2>
+                  <MeasureUnits tc="2">US System Standard</MeasureUnits>
+                  <MeasureValue>38.0</MeasureValue>
+               </Height2>
+               <Weight2>
+                  <MeasureUnits tc="2">US System Standard</MeasureUnits>
+                  <MeasureValue>234.0</MeasureValue>
+               </Weight2>
+               <Education/>
+            </Person>
+            <Address>
+               <AddressTypeCode tc="2">Business</AddressTypeCode>
+               <Line1>adf</Line1>
+               <Line2>sa</Line2>
+               <City>sa</City>
+               <AddressStateTC tc="1">Alabama</AddressStateTC>
+               <Zip>33333</Zip>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="1">Residential</AddressTypeCode>
+               <Line1>adf</Line1>
+               <Line2>sa</Line2>
+               <City>sa</City>
+               <AddressStateTC tc="1">Alabama</AddressStateTC>
+               <Zip>33333</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Phone>
+               <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+               <AreaCode>234</AreaCode>
+               <DialNumber>2342342</DialNumber>
+               <Ext>2323</Ext>
+               <PrefPhone tc="1">True</PrefPhone>
+            </Phone>
+            <EMailAddress>
+               <AddrLine>manish.sharma2@majesco.com</AddrLine>
+            </EMailAddress>
+            <Risk>
+               <OLifEExtension VendorCode="008">
+                  <AdditionalInfo>
+                     <CoverageCategory>LI</CoverageCategory>
+                     <InforceInsuranceInd>N</InforceInsuranceInd>
+                     <PendingInsuranceInd>N</PendingInsuranceInd>
+                  </AdditionalInfo>
+                  <AdditionalInfo>
+                     <CoverageCategory>DI</CoverageCategory>
+                     <InforceInsuranceInd>N</InforceInsuranceInd>
+                  </AdditionalInfo>
+               </OLifEExtension>
+            </Risk>
+            <KeyedValue>
+               <KeyName>ClientId</KeyName>
+               <KeyValue>234234234</KeyValue>
+            </KeyedValue>
+            <OLifEExtension VendorCode="008">
+               <GroupRelationshipCode>MEMBER</GroupRelationshipCode>
+            </OLifEExtension>
+         </Party>
+         <Relation id="RELATION_OWNER_SELF" OriginatingObjectID="HOLDING_100000353394" RelatedObjectID="PARTY_INSURED_SELF">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="8">OWNER</RelationRoleCode>
+            <RelationDescription tc="91">Self</RelationDescription>
+         </Relation>
+         <Relation id="RELATION_INSURED_SELF" OriginatingObjectID="HOLDING_100000353394" RelatedObjectID="PARTY_INSURED_SELF">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="32">Insured</RelationRoleCode>
+         </Relation>
+      </OLifE>
+   </TXLifeRequest>
+</TXLife>
